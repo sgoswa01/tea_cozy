@@ -105,7 +105,7 @@ nav span {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
+  margin-top: 40px;
 }
 
 .location-content {
@@ -116,7 +116,6 @@ nav span {
   background-image: url("./images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  border: 1px solid yellow;
 }
 
 .location-boxes {
@@ -132,3 +131,14 @@ nav span {
 }
 
 /* Footer */
+
+footer {
+  height: 200px;
+}
+
+/* Copyright */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
