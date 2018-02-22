@@ -2,6 +2,52 @@
 
 body {
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
 }
 
 /* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav {
+  padding-right: 20px;
+}
+
+nav span {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+/* Mission */
+
+/* Featured Teas */
+
+/* Locations */
+
+/* Footer */
