@@ -101,4 +101,34 @@ nav span {
 
 /* Locations */
 
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.location-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  border: 1px solid yellow;
+}
+
+.location-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: black;
+  margin: 0px 20px;
+  width: 300px;
+}
+
 /* Footer */
