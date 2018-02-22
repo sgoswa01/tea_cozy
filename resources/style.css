@@ -46,6 +46,20 @@ nav span {
 
 /* Mission */
 
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.mission img {
+  height: 700px;
+}
+
+.content {
+}
+
 /* Featured Teas */
 
 /* Locations */
