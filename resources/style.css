@@ -22,6 +22,8 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
+  z-index: 1;
+  background-color: black;
 }
 
 .logo {
@@ -53,7 +55,7 @@ nav span {
   padding-top: 69px;
 }
 
-.content {
+.mission-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,12 +64,40 @@ nav span {
   background-image: url("./images/img-mission-background.jpg")
 }
 
-.text-content {
+.mission-text-content {
   background-color: black;
   width: 1200px;
 }
 
 /* Featured Teas */
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.featured-teas {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1040px;
+}
+
+.featured-teas span {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.featured-teas img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 20px;
+}
 
 /* Locations */
 
